@@ -1,0 +1,18 @@
+body {
+    border: 1px solid red;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#div1 {
+    /* margin-right: 100px; */
+    background-color: #F2F1F1;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    height: 545px;
+    width: 100%;
+}
