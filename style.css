@@ -71,8 +71,10 @@ button {
     height: 40px;
 }
 #div2 {
-    height: 600px;
+    height: 500px;
     width: 100%;
+    /* padding-right: 20px;
+    padding-left: 20px; */
 }
 #img1 p {
     height: 34px;
@@ -92,9 +94,10 @@ button {
 }
 #div2-content-first, #div2-content-second {
     display: flex;
+    margin-left: -50px;
 }
 .services h4 {
-    margin: 50px 0px 20px 150px;
+    margin: 50px 0px 20px 100px;
 }
 #line {
     background-color: #C4C4C4;
@@ -183,17 +186,26 @@ button {
 @media only screen and (max-width: 320px) {
     #div1 {
         width: 100%;
+        height: 680px;
+        margin-top: -150px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .top-image {
-        margin: -50px 0 0 0px;
+        margin: 380px 0px 0px 0px;
         height: 200px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #overall-content #div1 .row .col-md-6 #image {
+        height: 300px;
     }
     #input {
         width: 100px;
-        margin-left: 40px;
+        margin-left: 0px;
     }
     #text {
-        margin-top: 30px;
+        margin-top: -220px;
     }
     .hide {
         margin: 20px 0 0 0px;
@@ -202,16 +214,17 @@ button {
     .change {
         margin-top: 30px;
         display: inline-block;
-        margin: 20px 0 0 0px;
     }
     .services h4 {
         text-align: left;
-        margin: 0px;
         padding: 10px;
+        margin: 0px;
     }
     #div2 {
-        height: 2260px;
+        height: 2050px;
         width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     #div2-content-first {
         display: block;
@@ -220,29 +233,29 @@ button {
         display: block;
     }
     #img1 {
-        margin-left: -150px;
+        margin-left: -100px;
     }
     #img {
-        margin-left: -25px;
+        margin-left: 25px;
     }
     #div2-content-first #img img, #div2-content-second #img img {
-        width: 322px;
+        width: 282px;
     }
     #div2-content-first #img p, #div2-content-second #img p {
-        width: 322px;
+        width: 282px;
     }
     #div2-content-first #img p span, #div2-content-second #img p span {
         margin-left: 500px;
     }
     .fa-arrow-right:before {
         content: "\f061";
-        padding-left: 80px;
+        padding-left: 40px;
     }
     #div2-content-first #img1 img, #div2-content-second #img1 img {
-        width: 322px;
+        width: 282px;
     }
     #div2-content-first #img1 p, #div2-content-second #img1 p {
-        width: 322px;
+        width: 282px;
     }
     #progress {
         display: none;
@@ -266,6 +279,8 @@ button {
     #div4 {
         width: 100%;
         height: 620px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     #footer {
         width: 100%;
@@ -300,20 +315,22 @@ button {
   @media only screen and (max-width: 540px) and (min-width: 321px) {
     #div1 {
         width: 100%;
-        height: 540px;
+        height: 500px;
     }
     .top-image {
-        margin: -50px 0 0 8%;
+        margin: 200px 0px 0px 0px;
         height: 200px;
-        width: 70%;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     #input {
-        margin-left: 15%;
-        width: 25%;
+        margin-left: 0;
+        width: 35%;
     }
     #text {
-        text-align: left;
-        margin-top: 30px;
+        margin-top: -430px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .hide {
         margin: 20px 0 0 0px;
@@ -324,10 +341,13 @@ button {
         display: inline-block;
         margin: 20px 0 0 0px;
     }
+    
     .services h4 {
         text-align: left;
         margin: 0px;
         padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     #div2 {
         height: 100%;
@@ -348,7 +368,8 @@ button {
     }
     #div2-content-first #img img, #div2-content-second #img img {
         /* border: 1px solid red; */
-        width: 100%;
+        /* margin-left: 220px; */
+        
     }
     #div2-content-first #img p, #div2-content-second #img p {
         /* border: 1px solid red; */
@@ -361,6 +382,10 @@ button {
         /* border: 1px solid red; */
         width: 100%;
     }
+    #div2-content-first #img img, #div2-content-second #img img {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
     #div2-content-first #img1 p, #div2-content-second #img1 p {
         /* border: 1px solid red; */
         width: 100%;
@@ -370,18 +395,27 @@ button {
         margin-left: 400%;
     }
     #img1 {
-        margin-left: -150px;
+        margin-left: -99px;
+        width: 88%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     #img {
-        margin-left: -23px;
+        margin-left: 28px;
+        width: 88%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     #progress {
         display: none;
   }
   #div3 {
-      width: 100%;
-      height: 250px;
-      padding: 10px;
+        width: 100%;
+        height: 250px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
   }
 #div3 .row .col-md-6 .header {
     margin: 5% 0 0 5%;
