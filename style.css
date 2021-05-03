@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: poppins;
 }
 #overall-content {
     width: 100%;
@@ -53,6 +53,7 @@
     width: 230px;
     border: 2px solid black;
     border-radius: 10px;
+    margin-top: 10px;
 }
 #form {
     display: flex;
@@ -63,9 +64,11 @@ button {
 }
 #button {
     margin-left: 10px;
+    margin-top: 10px;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     width: 138px;
+    height: 40px;
 }
 #div2 {
     height: 600px;
@@ -158,7 +161,7 @@ button {
     margin-right: 0px;  
 }
 #div4 h4 {
-    margin-left: 100px;
+    margin-left: 80px;
     margin-right: 0px;
 }
 #footer {
@@ -190,16 +193,24 @@ button {
         margin-left: 40px;
     }
     #text {
-        text-align: center;
         margin-top: 30px;
     }
+    .hide {
+        margin: 20px 0 0 0px;
+        display: none;
+    }
+    .change {
+        margin-top: 30px;
+        display: inline-block;
+        margin: 20px 0 0 0px;
+    }
     .services h4 {
-        text-align: center;
+        text-align: left;
         margin: 0px;
         padding: 10px;
     }
     #div2 {
-        height: 1850px;
+        height: 2260px;
         width: 100%;
     }
     #div2-content-first {
@@ -209,10 +220,29 @@ button {
         display: block;
     }
     #img1 {
-        margin-left: -110px;
+        margin-left: -150px;
     }
     #img {
-        margin-left: 10px;
+        margin-left: -25px;
+    }
+    #div2-content-first #img img, #div2-content-second #img img {
+        width: 322px;
+    }
+    #div2-content-first #img p, #div2-content-second #img p {
+        width: 322px;
+    }
+    #div2-content-first #img p span, #div2-content-second #img p span {
+        margin-left: 500px;
+    }
+    .fa-arrow-right:before {
+        content: "\f061";
+        padding-left: 80px;
+    }
+    #div2-content-first #img1 img, #div2-content-second #img1 img {
+        width: 322px;
+    }
+    #div2-content-first #img1 p, #div2-content-second #img1 p {
+        width: 322px;
     }
     #progress {
         display: none;
@@ -282,36 +312,68 @@ button {
         width: 25%;
     }
     #text {
-        text-align: center;
+        text-align: left;
         margin-top: 30px;
     }
+    .hide {
+        margin: 20px 0 0 0px;
+        display: none;
+    }
+    .change {
+        margin-top: 30px;
+        display: inline-block;
+        margin: 20px 0 0 0px;
+    }
     .services h4 {
-        text-align: center;
+        text-align: left;
         margin: 0px;
         padding: 10px;
     }
     #div2 {
-        height: 1850px;
+        height: 100%;
         width: 100%;
     }
     #div2-content-first {
         display: block;
         /* text-align: center; */
     }
-    #div2-content-first #img1, #div2-content-second #img1 {
-        text-align: -webkit-center;
+    /* #div2-content-first #img1, #div2-content-second #img1 {
+        border: 1px solid red;
     }
     #div2-content-first #img, #div2-content-second #img {
-        text-align: -webkit-center;
-    }
+        border: 1px solid red;
+    } */
     #div2-content-second {
         display: block;
     }
+    #div2-content-first #img img, #div2-content-second #img img {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    #div2-content-first #img p, #div2-content-second #img p {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    /* #div2-content-first #img p span, #div2-content-second #img p span {
+        border: 1px solid red;
+    } */
+    #div2-content-first #img1 img, #div2-content-second #img1 img {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    #div2-content-first #img1 p, #div2-content-second #img1 p {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .fa-arrow-right:before {
+        content: "\f061";
+        margin-left: 400%;
+    }
     #img1 {
-        margin-left: -110px;
+        margin-left: -150px;
     }
     #img {
-        margin-left: 10px;
+        margin-left: -23px;
     }
     #progress {
         display: none;
@@ -359,27 +421,19 @@ button {
 }
 #div4 #info .row .col-md-3 #service {
     margin-top: -225px;
-    margin-left: 250px;
-    text-align: -webkit-center;
+    margin-left: 150px;
     width: 100%;
-    margin-left: 70px;
 }
 #div4 #info .row .col-md-3 #resources {
     margin-top: -225px;
-    margin-left: 250px;
-    text-align: -webkit-center;
+    margin-left: 150px;
     width: 100%;
-    margin-left: 70px;
 }
 #div4 #info .row .col-md-3 #company {
-    text-align: -webkit-center;
     width: 100%;
-    margin-left: -100px;
 }
 #div4 #info .row .col-md-3 #design {
-    text-align: -webkit-center;
     width: 100%;
-    margin-left: -100px;
 }
 #hide {
     font-size: 15px;
